@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="#">
+      <div>
+        <p>Ім'я</p>
+        <input type="text" placeholder="Ім'я" name="username" tabindex="1">
+      </div>
+      <div>
+        <p>Пароль</p>
+        <input type="password" placeholder="Пароль" name="userpassword" tabindex="2">
+      </div>
+      <div>
+        <p>Телефон</p>
+        <input type="tel" placeholder="+380" name="usertel" tabindex="3">
+      </div>
+
+      <div>
+        <p>Стать</p>
+        <div>
+          <input checked type="radio" name="gender" value="male" tabindex="4">Чоловіча
+        </div>
+        <div>
+          <input type="radio" name="gender" value="female" tabindex="4">Жіноча
+        </div>
+      </div>
+
+      <div>
+        <p>Власність</p>
+        <div>
+          <input type="checkbox" name="bike" value="yes" tabindex="5">Велик
+        </div>
+        <div>
+          <input checked type="checkbox" name="car" value="yes" tabindex="6">Машина
+        </div>
+        <div>
+          <input disabled type="checkbox" name="house" value="yes" tabindex="7">Дім
+        </div>
+      </div>
+
+      <div>
+        <p>Додаткова інформація</p>
+        <input type="textarea" name="text" tabindex="8">
+      </div>
+      <div>
+        <p>Прикріпити фото</p>
+        <input type="file" name="userfoto" tabindex="9">
+      </div>
+      <div>
+        <p>Улюблений колір</p>
+        <select name="color" tabindex="10">
+          <option value="blue">Синій</option>
+          <option value="green" selected>Зелений</option>
+          <option value="yellow">Жовтий</option>
+        </select>
+      </div>
+      <div>
+        <p>Дії</p>
+        <button type="button" tabindex="11">Відправити</button>
+        <button type="reset" tabindex="12">Очистити</button>
+      </div>
+
+    </form>
+
+  </body>
+</html>
